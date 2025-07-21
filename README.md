@@ -96,6 +96,5 @@ To use this app with your own listening history, you'll first need to download y
 6. Launch the dashboard:
 ```bash
    streamlit run app.py
-## Demo
-https://drive.google.com/file/d/1yr-ucQopr27E6loqGThgFDaARMDgLwwz/view?usp=sharing
+
 
