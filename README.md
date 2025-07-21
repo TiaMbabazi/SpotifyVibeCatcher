@@ -24,6 +24,7 @@ This project analyzes personal streaming history by:
 ---
 
 ## Folder Structure
+
 ├── app.py # Streamlit dashboard app
 ├── generateIDs.py # Adds Spotify track and artist IDs
 ├── spotifygenre.py # Gets artist genres from Spotify
@@ -33,6 +34,7 @@ This project analyzes personal streaming history by:
 ├── getVibePerDay.sql # Query: top vibe/artist/song per day
 ├── getVibePerSeason.sql # Query: top vibe/artist/song per season
 ├── requirements.txt # Python dependencies
+
 
 
 ---
@@ -77,15 +79,16 @@ To use this app with your own listening history, you'll first need to download y
 2. Install dependencies:
    ```bash
     pip install -r requirements.txt
-  Add your Spotify API credentials in:
+
 3. Add your Spotify API credentials in:
     generateIDs.py
     spotifygenre.py
-4. Run transformation scripts:
+   
+5. Run transformation scripts:
 ```bash
-python TranformTime.py
-python generateIDs.py
-python spotifygenre.py
+   python TranformTime.py
+   python generateIDs.py
+   python spotifygenre.py
 
 5. Run the SQL scripts in your PostgreSQL:
 - setVibePerArtist.sql
@@ -95,6 +98,6 @@ python spotifygenre.py
 
 6. Launch the dashboard:
 ```bash
-streamlit run app.py
+   streamlit run app.py
 
 
