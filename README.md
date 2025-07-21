@@ -87,13 +87,13 @@ python TranformTime.py
 python generateIDs.py
 python spotifygenre.py
 
-Run the SQL scripts in your PostgreSQL:
+5. Run the SQL scripts in your PostgreSQL:
 - setVibePerArtist.sql
 - getVibePerHour.sql
 - getVibePerDay.sql
 - getVibePerSeason.sql
 
-Launch the dashboard:
+6. Launch the dashboard:
 ```bash
 streamlit run app.py
 
