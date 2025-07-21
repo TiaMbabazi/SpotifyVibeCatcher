@@ -83,11 +83,9 @@ To use this app with your own listening history, you'll first need to download y
     - generateIDs.py
     - spotifygenre.py
 4. Run transformation scripts:
-   
-```bash
-python TranformTime.py
-python generateIDs.py
-python spotifygenre.py
+- python TranformTime.py
+- python generateIDs.py
+- python spotifygenre.py
 
 5. Run the SQL scripts in your PostgreSQL:
 - setVibePerArtist.sql
