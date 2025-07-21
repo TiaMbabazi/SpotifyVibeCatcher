@@ -24,16 +24,15 @@ This project analyzes personal streaming history by:
 ---
 
 ## Folder Structure
-
-├── app.py # Streamlit dashboard app
-├── generateIDs.py # Adds Spotify track and artist IDs
-├── spotifygenre.py # Gets artist genres from Spotify
-├── TranformTime.py # Creates hourly timestamps
-├── setVibePerArtist.sql # Assigns vibes based on genres
-├── getVibePerHour.sql # Query: top vibe/artist/song per hour
-├── getVibePerDay.sql # Query: top vibe/artist/song per day
-├── getVibePerSeason.sql # Query: top vibe/artist/song per season
-├── requirements.txt # Python dependencies
+- app.py # Streamlit dashboard app
+- generateIDs.py # Adds Spotify track and artist IDs
+- spotifygenre.py # Gets artist genres from Spotify
+- TranformTime.py # Creates hourly timestamps
+- setVibePerArtist.sql # Assigns vibes based on genres
+- getVibePerHour.sql # Query: top vibe/artist/song per hour
+- getVibePerDay.sql # Query: top vibe/artist/song per day
+- getVibePerSeason.sql # Query: top vibe/artist/song per season
+- requirements.txt # Python dependencies
 
 
 
@@ -83,8 +82,7 @@ To use this app with your own listening history, you'll first need to download y
 3. Add your Spotify API credentials in:
     generateIDs.py
     spotifygenre.py
-   
-5. Run transformation scripts:
+4. Run transformation scripts:
 ```bash
    python TranformTime.py
    python generateIDs.py
